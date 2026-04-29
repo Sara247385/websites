@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+     
+    <title>BMW Landing Page</title>
+    <link rel="icon" type="image/png" href="assets/images/bmw-icon.jpg">
+    
+</head>
+<body>
+
+<header class="header py-4">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="brand-mark">BMW</span>
+                <span class="brand-text ms-2">BMW</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="#">Models</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Design</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#specs">Technology</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Offers</a></li>
+                </ul>
+                <a href="#" class="btn btn-outline-light ms-lg-4 mt-3 mt-lg-0">Book Test Drive</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero pb-5">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6">
+                    <span class="eyebrow">The Ultimate Driving Machine</span>
+                    <h1 class="hero-title">Discover the all-new <span>BMW i7</span></h1>
+                    <p class="lead">Electric mobility. Intelligent luxury. Designed to deliver unmatched performance and iconic presence.</p>
+                    <div class="d-flex flex-wrap gap-3 hero-btns">
+                        <a href="#" class="btn btn-primary btn-lg">Explore Model</a>
+                        <a href="#" class="btn btn-outline-light btn-lg">Build Your BMW</a>
+                    </div>
+                    <div class="hero-stats d-flex flex-wrap gap-3 mt-5">
+                        <div class="stat">
+                            <span>0–100 km/h</span>
+                            <strong>4.2 sec</strong>
+                        </div>
+                        <div class="stat">
+                            <span>Range</span>
+                            <strong>600 km</strong>
+                        </div>
+                        <div class="stat">
+                            <span>Peak Power</span>
+                            <strong>544 hp</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 text-center">
+                    <div class="hero-visual mx-auto">
+                        <img src="assets/images/bmw-hero.jpg" class="img-fluid hero-img" alt="BMW i7">
+                        <div class="hero-badge">
+                            ⚡ Electric Performance
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="showcase py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <span class="section-title">Premium Experience</span>
+                    <h2 class="section-heading">Designed for superior comfort, efficiency, and control.</h2>
+                    <p class="section-text">Every detail in the BMW i7 is crafted to combine modern technology with timeless luxury, offering a driving experience unlike any other.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-surface h-100">
+                        <div class="card-icon">⚡</div>
+                        <h3 class="card-title">Pure Performance</h3>
+                        <p class="card-text">Accelerated electric power delivers instant response with an elegantly balanced chassis and superb driving dynamics.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-surface h-100">
+                        <div class="card-icon">⭐</div>
+                        <h3 class="card-title">Luxury Interior</h3>
+                        <p class="card-text">Premium materials, spacious design, and ambient lighting create an immersive cabin built for comfort and refinement.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mx-auto mx-lg-0">
+                    <div class="card-surface h-100">
+                        <div class="card-icon">📱</div>
+                        <h3 class="card-title">Connected Technology</h3>
+                        <p class="card-text">Advanced driver assistance, intelligent voice controls, and seamless connectivity keep you in command on every journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <span class="section-title">BMW Gallery</span>
+                    <h2 class="section-heading">Explore the design from every angle.</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-hero.jpg" alt="BMW i7">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW i7</p>
+                                <p class="gallery-price">$119,995</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-i7.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-side.jpg" alt="BMW M5 Competition">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW M5 Competition</p>
+                                <p class="gallery-price">$105,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-m5.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-interior.jpg" alt="BMW i7 Interior">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW i7 Interior</p>
+                                <p class="gallery-price">$119,995</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-i7.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-rear.jpg" alt="BMW M8 Coupe">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW M8 Coupe</p>
+                                <p class="gallery-price">$146,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-m8.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-dashboard.jpg" alt="BMW i4 M50">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW i4 M50</p>
+                                <p class="gallery-price">$67,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-i4.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-exterior.jpg" alt="BMW X5 M">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW X5 M</p>
+                                <p class="gallery-price">$116,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-x5-m.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-1.jpg" alt="BMW Z4 Roadster">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW Z4 Roadster</p>
+                                <p class="gallery-price">$56,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-z4.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-2.jpg" alt="BMW 7 Series">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW 7 Series</p>
+                                <p class="gallery-price">$103,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-7-series.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-3.jpg" alt="BMW iX">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW iX</p>
+                                <p class="gallery-price">$84,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-ix.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-4.jpg" alt="BMW 8 Series">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW 8 Series</p>
+                                <p class="gallery-price">$84,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-8-series.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-5.jpg" alt="BMW X7">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW X7</p>
+                                <p class="gallery-price">$96,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-x7.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-card">
+                        <img src="assets/images/bmw-6.jpg" alt="BMW M440i">
+                        <div class="gallery-meta">
+                            <div>
+                                <p class="gallery-model">BMW M440i</p>
+                                <p class="gallery-price">$61,000</p>
+                            </div>
+                            <a class="gallery-link" href="https://www.bmw.com/en/all-models/bmw-4-series.html" target="_blank" rel="noopener">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specs" class="specs py-5">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-5">
+                    <span class="section-title">Performance Details</span>
+                    <h2 class="section-heading">Advanced electric architecture built to perform.</h2>
+                    <p class="section-text">The BMW i7 combines a refined drivetrain with premium technology to deliver long-range capability, dynamic handling, and striking presence.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row spec-grid g-4">
+                        <div class="col-sm-6">
+                            <div class="spec-item">
+                                <span class="spec-value">544 hp</span>
+                                <span class="spec-label">Peak output</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="spec-item">
+                                <span class="spec-value">600 km</span>
+                                <span class="spec-label">Range (WLTP)</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="spec-item">
+                                <span class="spec-value">4.2 s</span>
+                                <span class="spec-label">0–100 km/h</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="spec-item">
+                                <span class="spec-value">120 kW</span>
+                                <span class="spec-label">Fast charging</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between p-4 rounded-4" style="background: rgba(79, 70, 229, 0.05); border:1px solid rgba(79, 70, 229, 0.1);">
+                <div class="col-lg-7">
+                    <h3 class="mb-2">Ready to experience the next generation of BMW?</h3>
+                    <p class="mb-0 text-muted">Schedule a test drive or customize your BMW i7 with our digital configurator.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                    <a href="#" class="btn btn-primary btn-lg">Schedule Test Drive</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <p class="mb-3 mb-md-0">© 2026 BMW Group. All Rights Reserved.</p>
+        <div>
+            <a class="footer-link" href="#">Privacy</a>
+            <a class="footer-link" href="#">Terms</a>
+            <a class="footer-link" href="#">Contact</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
